@@ -1,0 +1,58 @@
+
+*{
+    box-sizing:border-box  
+}
+body{
+    background: linear-gradient(to right,#000,orange);
+}
+#canvas1{
+    width: 350px;
+    height: 470px;
+    background-color: white;
+    margin-top: 10px;
+    filter: blur(2.5px) contrast(5);
+
+}
+label{
+    color: thistle;
+    font-size: 20px;
+    font-family: MV Boli;
+    margin-top: 15px;
+}
+select{
+    margin-top: 15px;
+}
+.start{
+    margin-left: 10px;
+    background: tomato;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.sair{
+    margin-left: 10px;
+    background: tomato;
+    cursor: pointer;
+    display: none;
+    margin-top: 15px;
+}
+.passed{
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: 800;
+    color: orangered; 
+    display: none;
+}
+.score{
+    font-size: 40px;
+    margin-right: 20px;
+    font-weight: 800;
+    color: #0ff;
+    display: none;
+}
+.restart{
+    margin-left: 10px;
+    background: tomato;
+    cursor: pointer;
+    display: none;
+    margin-top: 15px;
+}

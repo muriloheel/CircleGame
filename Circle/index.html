@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle :D</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1bb2033eb8.js" crossorigin="anonymous"></script>
+    <link rel ="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="input-container" class="d-flex justify-content-center">
+        <label>player</label>
+        <select name="colors" id="colors">
+            <option value="orange">Laranja</option>
+            <option value="tomato">Tomate</option>
+            <option value="magenta">Rosa</option>
+            <option value="#fff">Branco</option>
+            <option value="black">preto</option>
+        </select>
+        <label>fundo</label>
+        <select name="colors-do-fundo" id="cores-do-fundo">
+            <option value="purple">Roxo</option>
+            <option value="#0ff">Verde</option>
+            <option value="blue">Azul</option>
+            <option value="darkcyan">verde escuro</option>
+            <option value="black">preto</option>
+        </select>
+        <button class="start">START</button>
+        <button class="sair">SAIR</button>
+        <button class="restart">RESTART</button>
+    </div>
+    <div id="canvas-container" class="d-flex justify-content-center">
+        <canvas id="canvas1"></canvas>
+    </div>
+    <div class="d-flex justify-content-center">
+        <div class="score">0</div>
+        <div class="passed">0</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
